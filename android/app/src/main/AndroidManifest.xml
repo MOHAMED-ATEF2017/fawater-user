@@ -32,7 +32,7 @@ android:mimeType="*/*" />
   </queries> -->
 
     <application
-        android:label="Fawater User"
+        android:label="Fatoura User"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity

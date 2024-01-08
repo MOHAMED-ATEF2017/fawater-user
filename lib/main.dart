@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
       builder: (context, _) {
         return GetMaterialApp(
           showSemanticsDebugger: false,
-            title: 'Fawater User',
+            title: 'Fatoura User',
             locale: const Locale('ar', 'EG'),
             theme: ThemeData(
               appBarTheme: AppBarTheme(
