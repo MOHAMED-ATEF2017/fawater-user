@@ -10,6 +10,9 @@
 class FontFamily {
   FontFamily._();
 
+  /// Font family: MontserratRegular
+  static const String montserratRegular = 'MontserratRegular';
+
   /// Font family: NotoKufiArabic
   static const String notoKufiArabic = 'NotoKufiArabic';
 }

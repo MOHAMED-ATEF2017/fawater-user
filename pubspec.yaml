@@ -95,59 +95,61 @@ flutter:
   uses-material-design: true
   # To add assets to your application, add an assets section, like this:
   assets:
-    # - assets/images/
-    - assets/images/Dots.png
-    - assets/images/splash3.png
-    - assets/images/splash2.png
-    - assets/images/splash1.jpeg
-    - assets/images/receipt-search.png
-    - assets/images/Qr_Code.png
-    - assets/images/logo.jpeg
-    - assets/images/group_30.png
-    - assets/images/filter-search.png
+    - assets/images/
+    - assets/icons/
+    - assets/lotties/
+    # - assets/images/Dots.png
+    # - assets/images/splash3.png
+    # - assets/images/splash2.png
+    # - assets/images/splash1.jpeg
+    # - assets/images/receipt-search.png
+    # - assets/images/Qr_Code.png
+    # - assets/images/logo.jpeg
+    # - assets/images/group_30.png
+    # - assets/images/filter-search.png
 
-    - assets/icons/add-square.svg
-    - assets/icons/apple.svg
-    - assets/icons/bag-2.svg
-    - assets/icons/calendar.svg
-    - assets/icons/call-calling.svg
-    - assets/icons/Chevron_Left_MD.svg
-    - assets/icons/clock.svg
-    - assets/icons/coin.svg
-    - assets/icons/document-download.svg
-    - assets/icons/empty-wallet.svg
-    - assets/icons/Facebook.svg
-    - assets/icons/filter-search.svg
-    - assets/icons/google.svg
-    - assets/icons/home.svg
-    - assets/icons/Invoice-amico.svg
-    - assets/icons/language-square.svg
-    - assets/icons/lock.svg
-    - assets/icons/logout.svg
-    - assets/icons/money-add.svg
-    - assets/icons/moneys.svg
-    - assets/icons/note.svg
-    - assets/icons/notification.svg
-    - assets/icons/printer.svg
-    - assets/icons/profile-delete.svg
-    - assets/icons/receipt-2.svg
-    - assets/icons/receipt-add.svg
-    - assets/icons/receipt-item.svg
-    - assets/icons/receipt-search.svg
-    - assets/icons/receipt-square.svg
-    - assets/icons/receipt.svg
-    - assets/icons/setting-2.svg
-    - assets/icons/share.svg
-    - assets/icons/Shield_Check.svg
-    - assets/icons/shop.svg
-    - assets/icons/signup.svg
-    - assets/icons/sms.svg
-    - assets/icons/user-tag.svg
-    - assets/icons/Wallet-amico 1.svg
-    - assets/icons/whatsapp.svg
+    # - assets/icons/add-square.svg
+    # - assets/icons/apple.svg
+    # - assets/icons/bag-2.svg
+    # - assets/icons/calendar.svg
+    # - assets/icons/call-calling.svg
+    # - assets/icons/Chevron_Left_MD.svg
+    # - assets/icons/clock.svg
+    # - assets/icons/coin.svg
+    # - assets/icons/document-download.svg
+    # - assets/icons/empty-wallet.svg
+    # - assets/icons/Facebook.svg
+    # - assets/icons/filter-search.svg
+    # - assets/icons/google.svg
+    # - assets/icons/home.svg
+    # - assets/icons/Invoice-amico.svg
+    # - assets/icons/language-square.svg
+    # - assets/icons/lock.svg
+    # - assets/icons/logout.svg
+    # - assets/icons/money-add.svg
+    # - assets/icons/moneys.svg
+    # - assets/icons/note.svg
+    # - assets/icons/notification.svg
+    # - assets/icons/printer.svg
+    # - assets/icons/profile-delete.svg
+    # - assets/icons/receipt-2.svg
+    # - assets/icons/receipt-add.svg
+    # - assets/icons/receipt-item.svg
+    # - assets/icons/receipt-search.svg
+    # - assets/icons/receipt-square.svg
+    # - assets/icons/receipt.svg
+    # - assets/icons/setting-2.svg
+    # - assets/icons/share.svg
+    # - assets/icons/Shield_Check.svg
+    # - assets/icons/shop.svg
+    # - assets/icons/signup.svg
+    # - assets/icons/sms.svg
+    # - assets/icons/user-tag.svg
+    # - assets/icons/Wallet-amico 1.svg
+    # - assets/icons/whatsapp.svg
 
-    - assets/lotties/add_fatora.json
-    - assets/lotties/success.json
+    # - assets/lotties/add_fatora.json
+    # - assets/lotties/success.json
     # - assets/fonts/
     # - assets/icons/
     # - assets/lotties/

@@ -1,4 +1,3 @@
-import 'package:fawatery_user/Controllers/NotificationBloc/notification_bloc.dart';
 import 'package:kiwi/kiwi.dart';
 
 import '../Controllers/AddNewProductBloc/add_product_bloc.dart';
@@ -6,6 +5,7 @@ import '../Controllers/AddRemoveFavoriteBloc/add_remove_favorite_bloc.dart';
 import '../Controllers/BillDetailsBloc/bill_details_bloc.dart';
 import '../Controllers/ChangePasswordBloc/change_password_bloc.dart';
 import '../Controllers/CreateInvoiceBloc/create_invoice_bloc.dart';
+import '../Controllers/DeleteAccountBloc/delete_bloc.dart';
 import '../Controllers/GetAllProductsBloc/get_all_products_bloc.dart';
 import '../Controllers/GetAllProductsBloc/get_all_products_cubit.dart';
 import '../Controllers/GetFavoritesBloc/get_favorites_bloc.dart';
@@ -18,6 +18,7 @@ import '../Controllers/HomeBloc/home_cubit.dart';
 import '../Controllers/LoginBloc/login_bloc.dart';
 import '../Controllers/LoginBloc/login_cubit.dart';
 import '../Controllers/LogoutBloc/logout_bloc.dart';
+import '../Controllers/NotificationBloc/notification_bloc.dart';
 import '../Controllers/RatingBloc/rating_bloc.dart';
 import '../Controllers/SignUpBloc/sign_up_bloc.dart';
 import '../Controllers/UpdateProfilebloc/update_profile_bloc.dart';
@@ -46,4 +47,5 @@ void initKiwi() {
   container.registerFactory((c) => RatingBloc());
   container.registerFactory((c) => NotificationBloc());
   container.registerFactory((c) => GetMyStoreFawaterBloc());
+  container.registerFactory((c) => DeleteAccountBloc());
 }
